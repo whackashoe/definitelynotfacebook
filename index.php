@@ -35,9 +35,9 @@ require_once("includes.php");
 <h2>Send Message</h2>
 <form action="sendmessage.php" method="post" class="pure-form">
 	<fieldset>
-		<textarea name="send_key" rows="10" cols="30" placeholder="enter your public key"></textarea>
+		<textarea name="send_key" rows="10" cols="30" placeholder="enter your public key (optional, leave blank if you don't want)"></textarea>
 		<textarea name="receive_key" rows="10" cols="30" placeholder="enter your recipients public key"></textarea>
-		<textarea name="message" rows="10" cols="30" placeholder="enter your ENCRYPTED message"></textarea>
+		<textarea name="message" rows="10" cols="30" placeholder="enter your ENCRYPTED message, max size is 64k" maxlength="65535"></textarea>
 		<input type="submit" name="submit" value="send message" class="pure-button pure-button-primary">
 	</fieldset>
 </form>
