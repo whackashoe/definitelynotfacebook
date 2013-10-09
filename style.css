@@ -1,0 +1,9 @@
+header .pure-menu.pure-menu-open{
+	background-color:#3b5998;
+	border-bottom: 1px solid #133783;
+	color:#fff;
+}
+
+header .pure-menu.pure-menu-open .pure-menu-heading {
+	color:#fff;
+}
