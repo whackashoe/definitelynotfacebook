@@ -10,7 +10,9 @@ if(!isset($_POST['message']) || empty($_POST['message']))
 
 
 if(count($errors) == 0) {
-	$send_id 	= lookup_id_from_key($_POST['send_key']);
+	if(empty($_POST['send_key'])) 	$send_id = 0;	//extranon 
+	else 				$send_id = lookup_id_from_key($_POST['send_key']);
+
 	$receive_id 	= lookup_id_from_key($_POST['receive_key']);
 
 	if(!$send_id) 		$send_id 	= insert_key_grab_id($_POST['send_key']);
