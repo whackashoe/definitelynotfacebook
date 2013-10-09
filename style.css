@@ -9,14 +9,13 @@ header .pure-menu.pure-menu-open .pure-menu-heading {
 }
 
 footer {
-    position:fixed;
-    bottom:0px;
-    width:100%;
-    padding:0.5em;
-    text-align:center;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	padding:0.5em;
+	text-align:center;
 }
 
 body {
-    margin-bottom: 5em;
+	margin-bottom: 5em;
 }
-
