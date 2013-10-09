@@ -7,3 +7,16 @@ header .pure-menu.pure-menu-open{
 header .pure-menu.pure-menu-open .pure-menu-heading {
 	color:#fff;
 }
+
+footer {
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    padding:0.5em;
+    text-align:center;
+}
+
+body {
+    margin-bottom: 5em;
+}
+

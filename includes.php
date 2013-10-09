@@ -93,6 +93,6 @@ $pagetop = '<!DOCTYPE html>
 	        <div class="pure-u-1-6"></div>
 	        <div class="pure-u-3-4">';
 
-$pagebottom = '</div><div class="pure-u-1-6"></div></body></html>'
+$pagebottom = '</div><div class="pure-u-1-6"></div></div><footer><a class="pure-button pure-button-primary" href="https://github.com/whackashoe/definitelynotfacebook">Get Source</footer></body></html>'
 
 ?>
