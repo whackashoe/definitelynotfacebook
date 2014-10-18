@@ -1,7 +1,7 @@
 <?php
 header('Content-type: text/html; charset=utf-8');
 
-$dbuser = '';
+$dbuser = 'root';
 $dbpass = '';
 
 if(empty($dbuser) || empty($dbpass)) {
