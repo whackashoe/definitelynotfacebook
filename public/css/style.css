@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "facebolf";
+    src: url("fonts/facebolf.woff") format('woff');
+}
+
+header .pure-menu.pure-menu-open{
+	background-color:#3b5998;
+	border-bottom: 1px solid #133783;
+	color:#fff;
+}
+
+header .pure-menu.pure-menu-open .pure-menu-heading {
+    margin:0px;
+    padding:0px;
+    padding-top:1em;
+}
+
+header .pure-menu.pure-menu-open .pure-menu-heading a {
+    font-family: 'facebolf';
+    font-size:2em;
+	color:#fff;
+    text-transform:none;
+    padding:0.2em;
+    line-height:1em;
+}
+
+footer {
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	padding:0.5em;
+	text-align:center;
+}
+
+body {
+	margin-bottom: 5em;
+}
+
+p {
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    color:#666;
+    font-size:15px;
+    line-height:20px;
+    font-weight:normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif !important;
+    color:#333;
+    font-size:17px;
+    line-height:22px;
+}
+
+a {
+    color:#3b5998;
+    text-decoration:none;
+}

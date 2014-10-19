@@ -1,11 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<HTML>
-<HEAD>
-<TITLE>Beginner's Guide to GnuPG</TITLE>
-</HEAD>
-
-<BODY BGCOLOR="#ffffff" TEXT="#000000">
-
 <p>This document came from: http://www.queen.clara.net/pgp/art3.html, "Nat Queen" has nothing to do with this hidden service.</p>
 
 <H1>Beginner's Guide to GnuPG</H1>
@@ -304,5 +296,3 @@ article I shall describe some of the other things you can do with GnuPG.
 <P>Finally, I thank Stefan Bellon for kindly suggesting some improvements to
 a draft of this article. Any remaining inaccuracies are, of course, entirely
 my own.
-</BODY>
-</HTML>

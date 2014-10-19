@@ -5,6 +5,17 @@ A service to contact others via pgp. You are able to read your messages by enter
 
 Non trusting design, everything must be encrypted as everything is public. 
 
-Designed to leak no meta data. To run on tor hidden services. You can view a demo here: http://hfzcrftuhbg7jaml.onion
-
 Very open to pull requests and feature requests! Happy hacking. 
+
+how to install?
+===
+
+* `cd /var/www`
+* `git clone https://github.com/whackashoe/definitelynotfacebook.git`
+* `mysql -uroot -e "create database definitelynotfacebook;"
+* `mysql -uroot definitelynotfacebook < misc/definitelynotfacebook.sql`
+* `cp misc/definitelynotfacebook.conf /etc/apache2/sites-available`
+* `a2ensite definitelynotfacebook`
+* `echo '127.0.0.1 definitelynotfacebook.dev' >> /etc/hosts`
+
+Modify `/src/dfn.php` to contain correct mysql username, password and database. 

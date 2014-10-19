@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond $1 ^(index\.php|robots\.txt|favicon\.ico|public|assets|css|js|images)
+RewriteRule ^(.*)$ - [PT,L]
+
+RewriteRule ^(.*)$ index.php/$1 [PT,L]
